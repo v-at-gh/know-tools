@@ -1,0 +1,27 @@
+# Secrets & environment overrides
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.db
+*.tmp
+*.bak
+*.ipynb
+.ipynb_checkpoints
+tests/
+public/
+reports/
+__pycache__/
+.pytest_cache/
